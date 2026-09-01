@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(83, 189, 83);
+}
+h1{
+    padding: 50px;
+    margin: 50px;
+    border: 20px;
+    border-style: dashed;
+    border-color: rgb(7, 125, 86);
+}
+h2{
+    padding: 20px;
+    margin: 20px;
+    border: 20px;
+    border-style: solid;
+    border-radius: 20px;
+}
+.padre{
+    background-color: rgb(7, 125, 86);
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+}
+.hijo1{
+    background-color: rgb(120, 145, 94);
+    padding: 5px;
+    margin: 10px;
+}
+.hijo2{
+    background-color: rgb(221, 254, 71);
+    padding: 5px;
+    margin: 10px;
+}
+.principal{
+    background-color: rgb(89, 120, 231);
+    padding: 20px;
+    .hijo3{
+        background-color: rgb(231, 89, 89);
+        padding: 20px;
+    }
+    .hijo4{
+        background-color: rgb(107, 218, 235);
+        padding: 20px;
+    }
+}
+.principal,.hijo3,.hijo4{
+    margin: 30px;
+}
+.nieto1,.nieto2{
+    background-color: rgb(123, 117, 236);
+    padding: 30px;
+    margin: 5px;
+}

@@ -1,0 +1,110 @@
+body{
+    background-color: #fff176;
+}
+.c2,.c4,.cuello{
+    background-color: #aef249;
+    border: 2px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.c1,.c3,.c5,.cabeza{
+    background-color: #ff7676;
+    border-radius: 50%;
+    border: 2px;
+    width: 80px;
+    height: 80px;
+}
+.antena1,.antena2{
+    background-color: #aef249;
+    width: 5px;
+    height: 80px;
+    position: absolute;
+}
+.redondo1,.redondo2{
+    background-color: #ff7676;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px;
+    position: absolute;
+}
+.redondo1{
+    top: 130px;
+    left: 792px;
+}
+.redondo2{
+    top: 130px;
+    left: 812px;
+}
+.antena1{
+    left: 800px;
+    top: 150px;
+}
+.antena2{    
+    left: 820px;
+    top: 150px;}
+.cabeza{
+    position: absolute;
+    top: 227px;
+    left: 762px;
+    width: 100px;
+    height: 100px;
+}
+.cuello{
+    position: absolute;
+    top: 320px;
+    left: 757px;
+    width: 60px;
+    height: 110px;
+}
+.c5{
+    position: absolute;
+    top: 420px;
+    left: 715px;
+}
+.c4{
+    position: absolute;
+    top: 420px;
+    left: 635px;
+}
+.c3{
+    position: absolute;
+    top: 420px;
+    left: 555px;
+}
+.c2{
+    position: absolute;
+    top: 420px;
+    left: 475px;
+}
+.c1{
+    position: absolute;
+    top: 420px;
+    left: 395px;
+}
+.ojo1,.ojo2{
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px;
+    width: 20px;
+    height: 20px;
+}
+.ojo1{
+    top: 20px;
+    left: 30px;
+}
+.ojo2{
+    top: 20px;
+    left: 70px;
+}
+.boca{
+    background-color: #f8f6f6;
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    top: 60px;
+    left: 20px;
+    border-radius: 50%;
+}
