@@ -1,0 +1,23 @@
+body{
+    background-color: brown;
+}
+.padre{
+    background-color: orange;
+    padding: 10px;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.c1,.c2,.c3,.c4,.c5{
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+}
+.c1{
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+.c5{
+    grid-row: 3/4;
+    grid-column: 1/4;
+}

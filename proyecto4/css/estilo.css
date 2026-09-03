@@ -1,0 +1,38 @@
+body{
+    background-color: brown;
+}
+.padre{
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: column-reverse:*/
+    /*flex-direction: wrap-reverse;*/
+    justify-content: center;
+    align-items: center;
+}
+.c1,.c2,.c3,.c4,.c5{
+    background-color: white;
+    width: 90px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.c6,.c7,.c8,.c9,.c10{
+    background-color: white;
+    width: 90px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.padre2{
+    background-color: yellow;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+}
