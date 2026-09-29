@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(99, 141, 88);
+}
+.padre{
+    padding: 3px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 1fr 6fr 1fr;
+    grid-template-areas: "titulo titulo"
+                         "menu    menu"
+                         "contenido publicidad"
+                         "pie pie";
+}
+.titulo{
+    grid-area: titulo;
+    background-color: rgb(69, 108, 64);
+    text-align: center;
+    color: rgb(38, 58, 38);
+}
+.menu{
+    grid-area: menu;
+    background-color: rgb(63, 119, 82);
+    padding: 5px;
+}
+.contenido{
+    grid-area: contenido;
+    background-color: aliceblue;
+}
+.publicidad{
+    grid-area: publicidad;
+    background-color: aliceblue;
+}
+.pie{
+    grid-area: pie;
+    background-color: aliceblue;
+}
