@@ -1,0 +1,15 @@
+body{
+    background-color: #6c9564;
+}
+.caja{
+    padding: 3px;
+    border: 2px;
+    border-style: solid;
+    background-color: rgb(151, 229, 129);
+}
+h1{
+    color: rgb(25, 51, 28);
+}
+.nav-item{
+    color: aqua;
+}
